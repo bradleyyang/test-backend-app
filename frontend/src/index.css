@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif; /* Use Arial font for better readability */
+  background-color: #f0f0f0; /* Lighter background color */
+}
+
+input, button, label {
+  margin-top: 10px;
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+}
+
+input[type="text"], button {
+  padding: 10px; /* Add padding to input fields and buttons */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+button {
+  background-color: #4CAF50; /* Green background color for buttons */
+  color: white; /* White text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
